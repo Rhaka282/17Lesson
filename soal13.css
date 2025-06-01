@@ -1,0 +1,127 @@
+body {
+  font-family: arial;
+}
+
+.flexbox {
+  display: flex;
+  height: 50px;
+}
+
+.box1-13a {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2-13a {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.item1-13a {
+  background-color: black;
+  color: white;
+}
+
+.box1-13b {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.box2-13b {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.item1-13b {
+  background-color: black;
+  color: white;
+}
+
+.item-13b {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.profil{
+  margin-right: 11px;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.border1-13c {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 1px 1px 10px;
+}
+
+.flexbox1-13c {
+  display: flex;
+  padding: 20px;
+  padding-left: 0;
+  margin-top: 7px;
+  padding-bottom: 0;
+}
+
+.chewy-13c {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+}
+
+.time-13c{
+  font-size: 13px;
+  color: gray;
+}
+
+.email2-13c {
+  display: flex;
+  margin-top: 30px;
+}
+
+.flexbox-13f {
+  display: flex;
+  line-height: 20px;
+}
+
+.kotakabu-13f {
+  background-color: rgb(213, 212, 212);
+  width: 75px;
+  height: 80px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 67px;
+  margin-top: 20px;
+}
+
+.borderradius-13f {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(213, 212, 212);
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  border-left: 0;
+}
+
+.youtube1-13f {
+  padding: 10px;
+  font-size: 12px;
+  padding-top: 8px;
+  color: rgb(50, 49, 49);
+  display: flex;
+  flex-direction: column;
+}
+
+.youtube2-13f {
+  color: black;
+  font-size: 13px;
+}
